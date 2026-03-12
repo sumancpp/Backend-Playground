@@ -3,6 +3,7 @@ import http from 'http'
 const port = 8000;
 
 const server = http.createServer((req,res)=>{
+      
       if(req.url == '/'){
         res.end("Welcome to the home page")
       }
@@ -15,6 +16,7 @@ const server = http.createServer((req,res)=>{
       else{
         res.end("404 Not Found")
       }
+      
 })
 
 server.listen(port,()=>{
