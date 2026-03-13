@@ -76,6 +76,7 @@ app.get('/user',(req,res)=>{
 
 //  /id => means normal route.
 //  /:id => means id is a variable now
+
 app.get('/user/:id',(req,res)=>{
     let id = parseInt(req.params.id)
     //console.log(id);
