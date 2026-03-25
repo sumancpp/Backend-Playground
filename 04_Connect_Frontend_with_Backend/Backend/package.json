@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Connect frontend with backend",
+  "description": "Connect Frontend with Backend",
   "license": "ISC",
   "author": "Suman Maity",
   "type": "module",
