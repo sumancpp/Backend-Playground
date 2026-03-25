@@ -8,13 +8,13 @@ This repository contains my experiments, learning exercises, and mini-projects r
 
 ## 🧠 What I'm Learning
 
-✅ Complete Backend Setup with Node.js & Express.js
-✅ Connecting MongoDB with Mongoose
-✅ Secure Authentication with JWT & Bcrypt.js
-✅ User Registration & Login System
-✅ Image Upload with Multer & Cloudinary
-✅ RESTful API Development & Best Practices
-✅ Error Handling & Security Implementation
+✅ Complete Backend Setup with Node.js & Express.js  
+✅ Connecting MongoDB with Mongoose  
+✅ Secure Authentication with JWT & Bcrypt.js  
+✅ User Registration & Login System  
+✅ Image Upload with Multer & Cloudinary  
+✅ RESTful API Development & Best Practices  
+✅ Error Handling & Security Implementation  
 
 ## 🛠️ Technologies
 
