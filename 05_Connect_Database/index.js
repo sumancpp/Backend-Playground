@@ -135,6 +135,7 @@ app.delete("/delete/:id", async (req,res)=>{
   }
 })
 
+
 // ================= DELETE USER BY USERNAME =================
 app.delete("/delete", async (req,res)=>{
   try {
@@ -146,6 +147,7 @@ app.delete("/delete", async (req,res)=>{
     return res.status(404).json({message:"user not found..."})
   }
 })
+
 
 // ================= START SERVER =================
 app.listen(port,()=>{
