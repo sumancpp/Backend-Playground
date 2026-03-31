@@ -1,0 +1,17 @@
+{
+  "name": "05_connect_database",
+  "version": "1.0.0",
+  "description": "Connect with MongoDB",
+  "license": "ISC",
+  "author": "Suman Maity",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
+  }
+}
