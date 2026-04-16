@@ -22,7 +22,6 @@ const connectDb = async () => {
         
     } catch (error) {
         console.log("Databse error", error);
-        
     }
 }
 
