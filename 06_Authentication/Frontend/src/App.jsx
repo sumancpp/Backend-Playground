@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import { dataContext } from './context/UserContext'
 
 const App = () => {
+
   const { userData, loading } = useContext(dataContext)
 
   if (loading) {
