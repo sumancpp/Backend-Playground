@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from 'react'
 export const dataContext = createContext()
 
 const UserContext = ({ children }) => {
-  const [userData, setUserData] = useState(null)
+  const [userData,setUserData] = useState(null)
   const [loading, setLoading] = useState(true)
 
   const serverUrl = "http://localhost:8000"
