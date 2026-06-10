@@ -1,3 +1,3 @@
 console.log("Hello World");
-console.log(4+2);
-alert("Hello")//This is not working here.
+console.log(4+3);
+alert("Hello") //This is not working here.
