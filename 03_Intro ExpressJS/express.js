@@ -68,7 +68,6 @@ let users =  [
     }
   ]
 
-
 app.get('/user',(req,res)=>{
     const id = parseInt(req.params.id)
     res.json(users)
@@ -95,7 +94,6 @@ app.get('/search',(req,res)=>{
     
     res.json(query)
 })
-
 
 app.listen(port,()=>{
     console.log(`Server is started at ${port}`);
